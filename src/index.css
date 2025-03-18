@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+* {
+  font-family: vaziri,sans-serif;
+}
+
+@font-face {
+  font-family: vaziri;
+  src: url("./assets/fonts/Vazir-Medium-FD-WOL.ttf");
+}
+/* فایل CSS سفارشی یا در تگ <style> */
+.half-circle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border-radius: 100px 100px 0 0;
+  clip-path: ellipse(50% 100% at 50% 100%);
+}
